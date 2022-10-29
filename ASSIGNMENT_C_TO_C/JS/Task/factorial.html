@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Factorial</title>
+</head>
+<body>
+    
+    <script>
+        var input=parseInt(prompt("Enter Input:"));
+
+        function fact(num){
+            var sum=1;
+            for(var i=1;i<=num;i++){
+                sum=sum*i
+            }
+            document.write("<h2>Factorial: <br>")
+            document.write("Factorial of "+num+" is :"+sum+"</br>")
+        }
+
+        function mul(num){
+            document.write("<h2>Multiplication Table: <br>")
+
+            for(var i=1;i<=10;i++){
+                document.write(num+"x"+i+"="+ num*i +"<br>")
+            }
+        }
+
+        fact(input)
+        mul(input)
+
+
+    </script>
+
+</body>
+</html>

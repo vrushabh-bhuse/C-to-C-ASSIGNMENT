@@ -1,0 +1,678 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Bootstrap Icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./index.css">
+    <title>BPK Shop</title>
+</head>
+
+<body class="bg-color">
+    <main class="mx-5">
+        <!-- Navigation Bar -->
+        <header>
+            <nav class="navbar navbar-expand-sm navbar-light bg-color fixed-top mx-4 bg-color">
+                <a class="navbar-brand" href="#"><img src="media/logo.png" height="30px" class="ml-2" alt=""></a>
+                <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
+                    data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavId">
+                    <ul class="navbar-nav m-auto mt-2 mt-lg-0">
+                        <li class="nav-item active mx-4">
+                            <small><a class="nav-link text-uppercase text-primary" href="index.html">Home</a></small>
+                        </li>
+                        <li class="nav-item mx-4">
+                            <small><a class="nav-link text-uppercase" href="#">Shop</a></small>
+                        </li>
+                        <li class="navitem mx-4">
+                            <small><a class="nav-link text-uppercase" href="#">Picnic</a></small>
+                        </li>
+                        <li class="nav-item mx-4">
+                            <small><a class="nav-link text-uppercase" href="#">Page</a></small>
+                        </li>
+                        <li class="nav-item mx-4">
+                            <small><a class="nav-link text-uppercase" href="#">Promotion</a></small>
+                        </li>
+                        <li class="nav-item mx-4">
+                            <small><a class="nav-link text-uppercase" href="#">Blog</a></small>
+                        </li>
+                        <li class="nav-item mx-4">
+                            <small><a class="nav-link text-uppercase" href="contact.html">Contact Us</a></small>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link ml-2" href="#">
+                                <i class="bi bi-search"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="nav-link ml-2" href="#">
+                                <i class="bi bi-cart2"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="nav-link ml-2" href="#">
+                                <i class="bi bi-list"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <!-- Carousel -->
+        <section id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="media/slider1.jpg" alt="First slide">
+                    <div class="carousel-caption d-none d-md-block text-left">
+                        <h5 class="display-4 font-weight-bold font-italic">The World <br>Of Extreme Sports
+                        </h5>
+                        <p class="font-weight-bold font-italic">
+                            SAVE <span class="badge border-sharp badge-primary">20%</span> ON ALL APPAREL
+                        </p>
+                        <hr class="w-25 float-left bg-white">
+                        <a class="btn btn-primary border-sharp btn-sm float-left shop-now-btn">Shop Now <span
+                                class="bi bi-arrow-right mx-2"></span></a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="media/slider2.jpg" alt="Second slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="display-4 font-weight-bold text-left font-italic">The World <br>Of Extreme Sports
+                        </h5>
+                        <p class="font-weight-bold font-italic text-left">
+                            SAVE <span class="badge border-sharp badge-danger">20%</span> ON ALL APPAREL
+                        </p>
+                        <hr class="w-25 float-left bg-white">
+                        <button class="btn border-sharp btn-danger btn-sm float-left shop-now-btn">Shop Now <span
+                                class="bi bi-arrow-right mx-2"></span></button>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="media/slider3.jpg" alt="Third slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="display-4 font-weight-bold text-left font-italic">The World <br>Of Extreme Sports
+                        </h5>
+                        <p class="font-weight-bold font-italic text-left">
+                            SAVE <span class="badge border-sharp badge-warning text-white">20%</span> ON ALL APPAREL
+                        </p>
+                        <hr class="w-25 float-left bg-white">
+                        <a class="btn btn-warning text-white btn-sm float-left shop-now-btn border-sharp">Shop Now <span
+                                class="bi bi-arrow-right mx-2"></span></a>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev bg-primary" href="#carouselExampleControls" role="button" data-slide="prev">
+                <i class="bi bi-arrow-left"></i>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next bg-primary" href="#carouselExampleControls" role="button" data-slide="next">
+                <i class="bi bi-arrow-right"></i>
+                <span class="sr-only">Next</span>
+            </a>
+        </section>
+        <!-- Three Button  -->
+        <section class="row my-4">
+            <aside class="col">
+                <button class="btn btn-primary border-less btn-block text-uppercase"><i
+                        class="bi bi-truck mx-3"></i>free shipping
+                    world wide</button>
+            </aside>
+            <aside class="col">
+                <button class="btn btn-danger border-less btn-block text-uppercase"><i
+                        class="bi bi-cash-coin mx-3"></i>100% money
+                    back - 48 hours</button>
+            </aside>
+            <aside class="col">
+                <button class="btn btn-warning border-less btn-block text-uppercase"><i
+                        class="bi bi-question-circle-fill mx-3"></i>24/7 online customer support</button>
+            </aside>
+        </section>
+        <!-- Featured Collection -->
+        <section class="featured-collections mt-5">
+            <div class="text-center">
+                <p class="text-uppercase sec-heading mb-0"><b>Featured Collections</b></p>
+                <img src="media/symbol.png" alt="">
+            </div>
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb justify-content-center bg-color">
+                    <small class="breadcrumb-item text-uppercase"><a href="# ">new arrival</a></small>
+                    <small class="breadcrumb-item text-uppercase"><a href="#" class="col-black">clothing</a></small>
+                    <small class="breadcrumb-item text-uppercase"><a href="#" class="col-black">hats</a></small>
+                    <small class="breadcrumb-item text-uppercase"><a href="#" class="col-black">shoes</a></small>
+                    <small class="breadcrumb-item text-uppercase"><a href="#" class="col-black">bags</a></small>
+                    <small class="breadcrumb-item text-uppercase"><a href="#" class="col-black">accessories</a></small>
+                </ol>
+            </nav>
+            <!-- Featured Grid -->
+            <aside class="products my-5">
+                <div class="row my-3">
+                    <div class="col">
+                        <div class="card border-less mb-4" style="width: 11.3rem;">
+                            <img class="card-img-top" src="media/product1.jpg" alt="Card image cap">
+                            <div class="card-body text-center">
+                                <h6 class="card-title">Leatt Pro Jacket</h6>
+                                <p class="card-text text-danger">$550.00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card border-less mb-4" style="width: 11.3rem;">
+                            <img class="card-img-top" src="media/product2.jpg" alt="Card image cap">
+                            <div class="card-body text-center">
+                                <h6 class="card-title">Leatt Pro Jacket</h6>
+                                <p class="card-text text-danger">$550</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card border-less mb-4" style="width: 11.3rem;">
+                            <img class="card-img-top" src="media/product3.jpg" alt="Card image cap">
+                            <div class="card-body text-center">
+                                <h6 class="card-title">Leatt Pro Jacket</h6>
+                                <p class="card-text text-danger">$550</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card border-less mb-4" style="width: 11.3rem;">
+                            <img class="card-img-top" src="media/product4.jpg" alt="Card image cap">
+                            <div class="card-body text-center">
+                                <h6 class="card-title">Leatt Pro Jacket</h6>
+                                <p class="card-text text-danger">$550</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card border-less mb-4" style="width: 11.3rem;">
+                            <img class="card-img-top" src="media/product5.jpg" alt="Card image cap">
+                            <div class="card-body text-center">
+                                <h6 class="card-title">Leatt Pro Jacket</h6>
+                                <p class="card-text text-danger">$550</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card border-less mb-4" style="width: 11.3rem;">
+                            <img class="card-img-top" src="media/product6.jpg" alt="Card image cap">
+                            <div class="card-body text-center">
+                                <h6 class="card-title">Leatt Pro Jacket</h6>
+                                <p class="card-text text-danger">$550</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card border-less mb-4" style="width: 11.3rem;">
+                            <img class="card-img-top" src="media/product7.jpg" alt="Card image cap">
+                            <div class="card-body text-center">
+                                <h6 class="card-title">Leatt Pro Jacket</h6>
+                                <p class="card-text text-danger">$550.00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card border-less mb-4" style="width: 11.3rem;">
+                            <img class="card-img-top" src="media/product8.jpg" alt="Card image cap">
+                            <div class="card-body text-center">
+                                <h6 class="card-title">Leatt Pro Jacket</h6>
+                                <p class="card-text text-danger">$550</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card border-less mb-4" style="width: 11.3rem;">
+                            <img class="card-img-top" src="media/product9.jpg" alt="Card image cap">
+                            <div class="card-body text-center">
+                                <h6 class="card-title">Leatt Pro Jacket</h6>
+                                <p class="card-text text-danger">$550</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card border-less mb-4" style="width: 11.3rem;">
+                            <img class="card-img-top" src="media/product10.jpg" alt="Card image cap">
+                            <div class="card-body text-center">
+                                <h6 class="card-title">Leatt Pro Jacket</h6>
+                                <p class="card-text text-danger">$550</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card border-less mb-4" style="width: 11.3rem;">
+                            <img class="card-img-top" src="media/product11.jpg" alt="Card image cap">
+                            <div class="card-body text-center">
+                                <h6 class="card-title">Leatt Pro Jacket</h6>
+                                <p class="card-text text-danger">$550</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card border-less mb-4" style="width: 11.3rem;">
+                            <img class="card-img-top" src="media/product12.jpg" alt="Card image cap">
+                            <div class="card-body text-center">
+                                <h6 class="card-title">Leatt Pro Jacket</h6>
+                                <p class="card-text text-danger">$550</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+            <!-- Hot Deals -->
+            <aside class="card border-less">
+                <div class="row">
+                    <div class="col">
+                        <img src="media/model1.jpg" class="card-img border-less" alt="">
+                    </div>
+                    <div class="col">
+                        <div class="card-body">
+                            <b class="text-uppercase">hot deals</b>
+                            <h1 class="mt-4">Tulos Draey Skirts</h1>
+                            <div class="stars">
+                                <small class="bi bi-star-fill text-warning"></small>
+                                <small class="bi bi-star-fill text-warning"></small>
+                                <small class="bi bi-star-fill text-warning"></small>
+                                <small class="bi bi-star-fill text-warning"></small>
+                                <small class="bi bi-star-fill text-warning"></small>
+                                <small class="font-italic text-secondary">(05 Reviews)</small>
+                            </div>
+                            <h3 class="text-danger mt-3">$230.00</h3>
+                            <small class="text-justify">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                Laudantium aliquam mollitia voluptatum eius sint, nulla itaque, autem fuga a cumque
+                                quaerat, consequuntur perspiciatis molestias praesentium officia deleniti labore?
+                                Praesentium, accusamus. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Voluptates maiores totam nobis eos, ipsam praesentium hic repellendus deserunt aliquam
+                                facilis nam illo illum iusto sint atque quisquam ad, soluta dolores.
+                            </small>
+                            <table>
+                                <tr>
+                                    <td>
+                                        <small class="d-block my-2 text-uppercase"><i class="bi bi-chevron-compact-right"></i> Colors</small>
+                                    </td>
+                                    <td class=""><br>
+                                        <p class="d-inline-block ml-5 mr-2" style="width: 10px; height: 10px; background-color: red; border-radius: 50%;"></p>
+                                        <p class="d-inline-block mx-2" style="width: 10px; height: 10px; background-color: green; border-radius: 50%;"></p>
+                                        <p class="d-inline-block mx-2" style="width: 10px; height: 10px; background-color: purple; border-radius: 50%;"></p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <small class="d-block my-2 text-uppercase"><i class="bi bi-chevron-compact-right"></i> Size</small>
+                                    </td>
+                                    <td>
+                                        <div class="mx-5">
+                                            <small class="border p-2 px-3">S</small>
+                                            <small class="border p-2 px-3">M</small>
+                                            <small class="border p-2 px-3">L</small>
+                                            <small class="border p-2 px-3">XL</small>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                            <div class="my-4">
+                                <div class="time bg-primary btn border-sharp d-inline-block">
+                                    <h6 class="">25 <br>
+                                        <small class="text-light font-italic">Days</small>
+                                    </h6>
+                                </div>
+                                <div class="time bg-primary btn border-sharp d-inline-block">
+                                    <h6 class="">14 <br>
+                                        <small class="text-light font-italic">Days</small>
+                                    </h6>
+                                </div>
+                                <div class="time bg-primary btn border-sharp d-inline-block">
+                                    <h6 class="">57 <br>
+                                        <small class="text-light font-italic">Days</small>
+                                    </h6>
+                                </div>
+                                <div class="time bg-primary btn border-sharp d-inline-block">
+                                    <h6 class="">43 <br>
+                                        <small class="text-light font-italic">Days</small>
+                                    </h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+        </section>
+        <!-- Instagram -->
+        <section class="instagram my-5">
+            <div class="text-center">
+                <p class="text-uppercase sec-heading mb-0"><b>Instagram</b></p>
+                <img src="media/symbol.png" alt="">
+            </div>
+            <div class="row my-5">
+                <div class="col my-2">
+                    <div class="card border-less" style="width: 11rem;">
+                        <img class="" src="media/instagram1.jpg" alt="Card image cap">
+                    </div>
+                </div>
+                <div class="col my-2">
+                    <div class="card border-less" style="width: 11rem;">
+                        <img class="" src="media/instagram2.jpg" alt="Card image cap">
+                    </div>
+                </div>
+                <div class="col my-2">
+                    <div class="card border-less" style="width: 11rem;">
+                        <img class="" src="media/instagram3.jpg" alt="Card image cap">
+                    </div>
+                </div>
+                <div class="col my-2">
+                    <div class="card border-less" style="width: 11rem;">
+                        <img class="" src="media/instagram4.jpg" alt="Card image cap">
+                    </div>
+                </div>
+                <div class="col my-2">
+                    <div class="card border-less" style="width: 11rem;">
+                        <img class="" src="media/instagram5.jpg" alt="Card image cap">
+                    </div>
+                </div>
+                <div class="col my-2">
+                    <div class="card border-less" style="width: 11rem;">
+                        <img class="" src="media/instagram6.jpg" alt="Card image cap">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Top Rated section -->
+        <section class="row">
+            <aside class="col">
+                <div class="card border-less mb-5">
+                    <div class="card-body text-center pb-0">
+                        <h6 class="card-title text-uppercase">best seller</h6>
+                        <hr>
+                    </div>
+                    <div class="media m-2 ml-4">
+                        <img class="align-self-center mr-3 border" src="media/best1.jpg" alt="Generic placeholder image"
+                            width="120px">
+                        <div class="media-body m-1">
+                            <b class="mt-0">Leatt Pro Jacket</b>
+                            <div class="stars">
+                                <small class="bi bi-star-fill text-warning"></small>
+                                <small class="bi bi-star-fill text-warning"></small>
+                                <small class="bi bi-star-fill text-warning"></small>
+                                <small class="bi bi-star-fill text-warning"></small>
+                                <small class="bi bi-star-fill text-warning"></small>
+                            </div>
+                            <small class="text-danger d-block">$99.00</small>
+                            <div class="button my-2">
+                                <button class="btn btn-primary btn-sm border-sharp"><i class="bi bi-cart2"></i></button>
+                                <button class="btn btn-outline-secondary btn-sm border-sharp text-secondary"><i class="bi bi-arrow-clockwise"></i></button>
+                                <button class="btn btn-outline-secondary btn-sm border-sharp text-secondary"><i class="bi bi-heart"></i></button>
+                                <button class="btn btn-outline-secondary btn-sm border-sharp text-secondary"><i class="bi bi-eye-fill"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="media m-2 ml-4">
+                        <img class="align-self-center mr-3 border" src="media/best2.jpg" alt="Generic placeholder image"
+                            width="120px">
+                        <div class="media-body m-1">
+                            <b class="mt-0">Leatt Pro Jacket</b>
+                            <div class="stars">
+                                <small class="bi bi-star-fill text-warning"></small>
+                                <small class="bi bi-star-fill text-warning"></small>
+                                <small class="bi bi-star-fill text-warning"></small>
+                                <small class="bi bi-star-fill text-warning"></small>
+                                <small class="bi bi-star-fill text-warning"></small>
+                            </div>
+                            <small class="text-danger d-block">$99.00</small>
+                            <div class="button my-2">
+                                <button class="btn btn-primary btn-sm border-sharp"><i class="bi bi-cart2"></i></button>
+                                <button class="btn btn-outline-secondary btn-sm border-sharp text-secondary"><i class="bi bi-arrow-clockwise"></i></button>
+                                <button class="btn btn-outline-secondary btn-sm border-sharp text-secondary"><i class="bi bi-heart"></i></button>
+                                <button class="btn btn-outline-secondary btn-sm border-sharp text-secondary"><i class="bi bi-eye-fill"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="media m-4">
+                        <img class="align-self-center mr-3 border" src="media/best3.jpg" alt="Generic placeholder image"
+                            width="120px">
+                        <div class="media-body m-1">
+                            <b class="mt-0">Leatt Pro Jacket</b>
+                            <div class="stars">
+                                <small class="bi bi-star-fill text-warning"></small>
+                                <small class="bi bi-star-fill text-warning"></small>
+                                <small class="bi bi-star-fill text-warning"></small>
+                                <small class="bi bi-star-fill text-warning"></small>
+                                <small class="bi bi-star-fill text-warning"></small>
+                            </div>
+                            <small class="text-danger d-block">$99.00</small>
+                            <div class="button my-2">
+                                <button class="btn btn-primary btn-sm border-sharp"><i class="bi bi-cart2"></i></button>
+                                <button class="btn btn-outline-secondary btn-sm border-sharp text-secondary"><i class="bi bi-arrow-clockwise"></i></button>
+                                <button class="btn btn-outline-secondary btn-sm border-sharp text-secondary"><i class="bi bi-heart"></i></button>
+                                <button class="btn btn-outline-secondary btn-sm border-sharp text-secondary"><i class="bi bi-eye-fill"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+            <aside class="col">
+                <div class="card border-less mb-5">
+                    <div class="card-body text-center pb-0">
+                        <h6 class="card-title text-uppercase">top rate</h6>
+                        <hr>
+                    </div>
+                    <div class="media m-2 ml-4">
+                        <img class="align-self-center mr-3 border" src="media/top1.jpg" alt="Generic placeholder image"
+                            width="120px">
+                        <div class="media-body m-1">
+                            <b class="mt-0">Leatt Pro Jacket</b>
+                            <div class="stars">
+                                <small class="bi bi-star-fill text-warning"></small>
+                                <small class="bi bi-star-fill text-warning"></small>
+                                <small class="bi bi-star-fill text-warning"></small>
+                                <small class="bi bi-star-fill text-warning"></small>
+                                <small class="bi bi-star-fill text-warning"></small>
+                            </div>
+                            <small class="text-danger d-block">$99.00</small>
+                            <div class="button my-2">
+                                <button class="btn btn-primary btn-sm border-sharp"><i class="bi bi-cart2"></i></button>
+                                <button class="btn btn-outline-secondary btn-sm border-sharp text-secondary"><i class="bi bi-arrow-clockwise"></i></button>
+                                <button class="btn btn-outline-secondary btn-sm border-sharp text-secondary"><i class="bi bi-heart"></i></button>
+                                <button class="btn btn-outline-secondary btn-sm border-sharp text-secondary"><i class="bi bi-eye-fill"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="media m-2 ml-4">
+                        <img class="align-self-center mr-3 border" src="media/top2.jpg" alt="Generic placeholder image"
+                            width="120px">
+                        <div class="media-body m-1">
+                            <b class="mt-0">Leatt Pro Jacket</b>
+                            <div class="stars">
+                                <small class="bi bi-star-fill text-warning"></small>
+                                <small class="bi bi-star-fill text-warning"></small>
+                                <small class="bi bi-star-fill text-warning"></small>
+                                <small class="bi bi-star-fill text-warning"></small>
+                                <small class="bi bi-star-fill text-warning"></small>
+                            </div>
+                            <small class="text-danger d-block">$99.00</small>
+                            <div class="button my-2">
+                                <button class="btn btn-primary btn-sm border-sharp"><i class="bi bi-cart2"></i></button>
+                                <button class="btn btn-outline-secondary btn-sm border-sharp text-secondary"><i class="bi bi-arrow-clockwise"></i></button>
+                                <button class="btn btn-outline-secondary btn-sm border-sharp text-secondary"><i class="bi bi-heart"></i></button>
+                                <button class="btn btn-outline-secondary btn-sm border-sharp text-secondary"><i class="bi bi-eye-fill"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="media m-4">
+                        <img class="align-self-center mr-3 border" src="media/top3.jpg" alt="Generic placeholder image"
+                            width="120px">
+                        <div class="media-body m-1">
+                            <b class="mt-0">Leatt Pro Jacket</b>
+                            <div class="stars">
+                                <small class="bi bi-star-fill text-warning"></small>
+                                <small class="bi bi-star-fill text-warning"></small>
+                                <small class="bi bi-star-fill text-warning"></small>
+                                <small class="bi bi-star-fill text-warning"></small>
+                                <small class="bi bi-star-fill text-warning"></small>
+                            </div>
+                            <small class="text-danger d-block">$99.00</small>
+                            <div class="button my-2">
+                                <button class="btn btn-primary btn-sm border-sharp"><i class="bi bi-cart2"></i></button>
+                                <button class="btn btn-outline-secondary btn-sm border-sharp text-secondary"><i class="bi bi-arrow-clockwise"></i></button>
+                                <button class="btn btn-outline-secondary btn-sm border-sharp text-secondary"><i class="bi bi-heart"></i></button>
+                                <button class="btn btn-outline-secondary btn-sm border-sharp text-secondary"><i class="bi bi-eye-fill"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+            <aside class="col">
+                <div class="card border-less mb-5">
+                    <div class="card-body text-center pb-0">
+                        <h6 class="card-title text-uppercase">top special</h6>
+                        <hr>
+                    </div>
+                    <div class="media m-2 ml-4">
+                        <img class="align-self-center mr-3 border" src="media/special1.jpg" alt="Generic placeholder image"
+                            width="120px">
+                        <div class="media-body m-1">
+                            <b class="mt-0">Leatt Pro Jacket</b>
+                            <div class="stars">
+                                <small class="bi bi-star-fill text-warning"></small>
+                                <small class="bi bi-star-fill text-warning"></small>
+                                <small class="bi bi-star-fill text-warning"></small>
+                                <small class="bi bi-star-fill text-warning"></small>
+                                <small class="bi bi-star-fill text-warning"></small>
+                            </div>
+                            <small class="text-danger d-block">$99.00</small>
+                            <div class="button my-2">
+                                <button class="btn btn-primary btn-sm border-sharp"><i class="bi bi-cart2"></i></button>
+                                <button class="btn btn-outline-secondary btn-sm border-sharp text-secondary"><i class="bi bi-arrow-clockwise"></i></button>
+                                <button class="btn btn-outline-secondary btn-sm border-sharp text-secondary"><i class="bi bi-heart"></i></button>
+                                <button class="btn btn-outline-secondary btn-sm border-sharp text-secondary"><i class="bi bi-eye-fill"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="media m-2 ml-4">
+                        <img class="align-self-center mr-3 border" src="media/special2.jpg" alt="Generic placeholder image"
+                            width="120px">
+                        <div class="media-body m-1">
+                            <b class="mt-0">Leatt Pro Jacket</b>
+                            <div class="stars">
+                                <small class="bi bi-star-fill text-warning"></small>
+                                <small class="bi bi-star-fill text-warning"></small>
+                                <small class="bi bi-star-fill text-warning"></small>
+                                <small class="bi bi-star-fill text-warning"></small>
+                                <small class="bi bi-star-fill text-warning"></small>
+                            </div>
+                            <small class="text-danger d-block">$99.00</small>
+                            <div class="button my-2">
+                                <button class="btn btn-primary btn-sm border-sharp"><i class="bi bi-cart2"></i></button>
+                                <button class="btn btn-outline-secondary btn-sm border-sharp text-secondary"><i class="bi bi-arrow-clockwise"></i></button>
+                                <button class="btn btn-outline-secondary btn-sm border-sharp text-secondary"><i class="bi bi-heart"></i></button>
+                                <button class="btn btn-outline-secondary btn-sm border-sharp text-secondary"><i class="bi bi-eye-fill"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="media m-4">
+                        <img class="align-self-center mr-3 border" src="media/special3.jpg" alt="Generic placeholder image"
+                            width="120px">
+                        <div class="media-body m-1">
+                            <b class="mt-0">Leatt Pro Jacket</b>
+                            <div class="stars">
+                                <small class="bi bi-star-fill text-warning"></small>
+                                <small class="bi bi-star-fill text-warning"></small>
+                                <small class="bi bi-star-fill text-warning"></small>
+                                <small class="bi bi-star-fill text-warning"></small>
+                                <small class="bi bi-star-fill text-warning"></small>
+                            </div>
+                            <small class="text-danger d-block">$99.00</small>
+                            <div class="button my-2">
+                                <button class="btn btn-primary btn-sm border-sharp"><i class="bi bi-cart2"></i></button>
+                                <button class="btn btn-outline-secondary btn-sm border-sharp text-secondary"><i class="bi bi-arrow-clockwise"></i></button>
+                                <button class="btn btn-outline-secondary btn-sm border-sharp text-secondary"><i class="bi bi-heart"></i></button>
+                                <button class="btn btn-outline-secondary btn-sm border-sharp text-secondary"><i class="bi bi-eye-fill"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+        </section>
+        <!-- Footer -->
+        <section class="footer text-center">
+            <aside class="img">
+                <div class="bg-filter text-light">
+                    <div class="container">
+                        <img src="./media/download.png" class="rounded-circle m-4" width="70px" height="70px" alt="">
+                        <blockquote class="mx-5 font-italic">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis praesentium quo
+                            suscipit, dolorem provident cupiditate quod! Error temporibus saepe rem corporis vel in esse
+                            sapiente perferendis enim, deleniti, facere laudantium.
+                        </blockquote>
+                        <b>Vrushabh Bhuse</b><br>
+                        <small class="font-italic">Web Designer</small>
+                    </div>
+                </div>
+            </aside>
+            <aside class="mx-auto row" role="group" aria-label="First group">
+                <button type="button" class="btn btn-primary border-less
+                text-uppercase col">
+                    <i class="bi bi-facebook px-3"></i>facebook
+                </button>
+                <button type="button" class="btn btn-success border-less
+                text-uppercase col">
+                    <i class="bi bi-twitter px-3"></i>twitter
+                </button>
+                <button type="button" class="btn btn-danger border-less
+                text-uppercase col">
+                    <i class="bi bi-instagram px-3"></i>Instagram
+                </button>
+                <button type="button" class="btn btn-info border-less
+                text-uppercase col">
+                    <i class="bi bi-linkedin px-3"></i>linkedin
+                </button>
+                <button type="button" class="btn btn-secondary border-less
+                text-uppercase col">
+                    <i class="bi bi-github px-3"></i>github
+                </button>
+            </aside>
+            <aside class="bottom">
+                <div class="container">
+                    <img src="media/logo1.png" class="m-4" width="100px" height="" alt="">
+                    <p class="mx-5 mb-5 font-italic text-secondary">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis praesentium quo suscipit,
+                        dolorem provident <br> cupiditate quod! Error temporibus saepe rem corporis <br>
+                        <img src="media/payment.png" width="200px" class="my-3" alt="">
+                    </p>
+                    
+                </div>
+            </aside>
+            <footer class="my-3">
+                <small>Copyright &copy;2021 Designed by <span class="text-primary">Vrushabh Bhuse</span> - All Rights
+                    Reserved.</small>
+            </footer>
+        </section>
+    </main>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

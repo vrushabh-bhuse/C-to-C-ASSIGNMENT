@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swap in JS</title>
+</head>
+<body>
+
+    <script>
+        
+        var a=parseInt(prompt("a:"))
+        var b=parseInt(prompt("b:"))
+
+        function swpThrd(a,b){
+            var temp;
+            temp=a;
+            a=b;
+            b=temp;
+            document.write(a+" "+b+"<br>")
+        }
+
+        function swpWout(a,b){
+            a=a+b
+            b=a-b
+            a=a-b
+            document.write(a+" "+b+"<br>")
+
+        }
+
+        function lineSwap(a,b){
+            [a, b] = [b, a];
+            document.write(a+" "+b+"<br>")
+
+        }
+
+        document.write("<h2>Swap using 3rd var</h2> <br>")
+       swpThrd(a,b)
+       document.write("<h2>Swap without using 3rd var</h2> <br>")
+       swpWout(a,b)
+       document.write("<h2>Swap in single line </h2> <br>")
+       lineSwap(a,b)
+            
+    </script>
+
+
+    
+</body>
+</html>

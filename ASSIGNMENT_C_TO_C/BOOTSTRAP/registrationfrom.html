@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <title>Registration Form</title>
+  </head>
+  <body  class="p-3 mb-2 bg-light text-dark ">
+    <div class="container-fluid">
+      <div class="col-md-12">
+        <div class="text-center text-danger">
+          <h1>NeoSoft Technology</h1>
+        </div>
+      </div>
+      <div class="container-xl">
+        <form >
+            <div class="row">
+
+                <div class="mb-3 mt-3 col">
+                    <label for="name" class="form-label">Name First:</label>
+                    <input type="text" class="form-control" id="email" placeholder="Enter fname" name="name">
+                </div>
+                
+                <div class="mb-3 mt-3 col">
+                    <label for="name" class="form-label ">Name Last:</label>
+                    <input type="text" class="form-control" id="email" placeholder="Enter lname" name="name">
+                </div>
+            </div>
+               <div class="row">
+
+                      <div class="mb-3 mt-3 col">
+                       <label for="email" class="form-label">Email:</label>
+                       <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                    </div>
+                    <div class="mb-3 mt-3 col">
+                        <label for="pwd" class="form-label">Password:</label>
+                        <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+                    </div>
+                </div> 
+                <br>
+                <div class="row">
+
+                    <div class="mb-3 mt-3 col">
+                        <label for="contact" class="form-label">Contact details:</label>
+                        <input type="contact" class="form-control" id="contact" placeholder="Enter Mobile Number" name="contact">
+                    </div>
+                    
+                    <div class="mb-3 mt-3 col">
+                        <label for="name" class="form-label "> Alternate Contact details:</label>
+                        <input type="text" class="form-control" id="email" placeholder="Enter lname" name="email">
+                    </div>
+                </div>
+                <br>
+            <div class="row">
+                <p class="col">Gender</p>
+                <div class="form-check form-check-inline col">
+                    <input class="form-check-input" type="radio" id="inlineCheckbox1" value="option1" name="grn" >
+                    <label class="form-check-label" for="inlineCheckbox1">male</label>
+                </div>
+                <div class="form-check form-check-inline col">
+                    <input class="form-check-input" type="radio" id="inlineCheckbox2" value="option2" name="grn">
+                    <label class="form-check-label" for="inlineCheckbox2">Female</label>
+                </div>
+            </div>
+                <br>
+                <select class="form-select form-select-md mb-3" aria-label=".form-select-lg example">
+                    <option selected>select your city</option>
+                    <option value="1">mumbai</option>
+                    <option value="2">Nashik</option>
+                    <option value="3">PUNE</option>
+                </select>
+                  <br>
+                  <div class="row">
+                    <div class="mb-3 mt-3 col">
+                      <p class="mt-2.3">Zip code</p>
+                    </div>
+                
+                    <div class="mb-3 mt-3 col"><input type="text" class="form-control" id="zipcode" placeholder="Zip code" name="zip code">
+                    </div>
+                  </div>
+                  <br>
+                  <select class="form-select form-select-md mb-3" aria-label=".form-select-lg example">
+                    <option selected>Experience</option>
+                    <option value="1">0-1</option>
+                    <option value="2">1-3</option>
+                    <option value="3">3-6</option>
+                    <option value="3">6-10</option>
+                    <option value="3">above 10</option>
+                  </select>
+                  <br>
+                  <div class="mb-3">
+                    <label for="formFileMultiple" class="form-label">Upload Resume</label>
+                    <input class="form-control" type="file" id="formFileMultiple" multiple>
+                  </div>
+                  <br>
+            <!-- <div class="form-check mb-3">
+              <label class="form-check-label">
+                <input class="form-check-input" type="checkbox" name="remember"> Remember me
+              </label>
+            </div> -->
+            <div class="text-center">
+                <button  class="btn btn-primary text " >
+                 Submit
+                </button>
+            </div>
+            <br>
+          </form>
+          <!-- <form >
+              <div class="row">
+                  <div class="form-group col-md-5">
+                      <label>First name</label>
+                      <input type="text" class="form-control " />
+          </div>
+          <div class="form-group col-md-5">
+            <label>Last Name</label>
+            <input type="text" class="form-control" />
+          </div>
+        </div>
+
+        <div class="form-group col-md-10">
+          <label>Address</label>
+          <input type="address" class="form-control" />
+        </div>
+        <div class="form-group col-md-4">
+          <label>email</label>
+          <input type="email" class="form-control" />
+        </div>
+        <div class="form-group col-md-4">
+            <label>password</label>
+          <input type="password" class="form-control" />
+        </div>
+        <div class="form-group">
+          <label>Gender</label>
+          <input type="radio" value="male" name="grn" />Male
+          <input type="radio" value="female" name="grn" />Female
+        </div>
+        <div class="form-group">
+          <label>city</label>
+          <select>
+            <option selected>select city</option>
+            <option>nashik</option>
+            <option>mumbai</option>
+            <option>aurangabad</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>upload</label>
+          <input type="file" class="form-control" />
+        </div>
+        <div class="form-group">
+          <input type="btn" value="summit" class="btn-success" />
+        </div>
+      </form> -->
+    </div>
+    </div>
+    
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
